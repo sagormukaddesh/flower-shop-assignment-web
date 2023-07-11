@@ -1,0 +1,239 @@
+*{
+    margin: 0%;
+    padding: 0%;}
+/*coomon shared styles*/
+body{
+    font-family: 'Open Sans', sans-serif;
+ }
+    
+
+/*nav-part-styles*/
+.nav-title{
+    font-size: 45px;
+}
+.span-title{
+    color: steelblue;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    padding: 30px;
+   
+
+}
+nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(219, 199, 199);
+}
+nav >ul a{
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+
+
+/*headar -banner part styles*/
+
+.banner-img{
+    width: 400px;
+    height: 400px;
+}
+.header-banner-intruduction{
+    width: 400px;
+    text-align: left;
+    
+}
+.header-banner-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.banner-intruduction{
+    padding-bottom: 20px;
+}
+.banner-heading{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.hot-deals-delaile{
+   margin: 15px; 
+} 
+
+
+.btn-primary{
+    padding: 5px;
+    border-style: none;
+    border-radius: 5px;
+background:rgb(212, 91, 69);
+color: white;
+}
+
+
+/*header-features-section*/
+
+.feature-description{
+    text-align: center;
+    width: 350px;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 25px;
+}
+.feature-content{
+   padding-top: 80px; 
+   padding-bottom: 10px;
+}
+.pngwing-5{
+    width: 320px;
+    height: 440px;
+    padding-top: 20px;
+    background-color: rgba(174, 212, 212, 0.521);
+    border-radius: 300px 300px 0px 0px;
+
+}
+.pngwing-7{
+    width: 320px;
+    height: 440px;
+    padding-top:20px;
+    background-color: rgba(241, 226, 16, 0.247);
+    border-radius: 300px 300px 0px 0px;
+}
+.pngwing-6{
+    width: 319px;
+    height:405;
+    padding-top:20px;
+    background-color:rgba(167,33,98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.various-flowers-banners{
+    height: 70vh;
+    display: flex;
+    align-items:top;
+    justify-content:center;
+    gap: 10px; 
+}
+.header-features-section > ul{
+    display: flex;
+    justify-content: center;
+    gap: 220px;
+    list-style: none;
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+
+/*main part styles*/
+.readable-content{
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    
+}
+.readable-content-main{
+    width: 300px;
+    text-align: center;
+    margin-left: 200px;
+
+}
+.content-img{
+   width: 200px;
+}
+
+
+/*product-intruduction-part-styles*/
+
+.product-headline{
+    text-align: center;
+}
+.intruduction-headline{
+    padding-bottom: 5px;
+    font-size: 40px;
+}
+.headling-mein{
+    color: rgb(231, 24, 103);
+}
+.product-container{
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    margin-top: 20px;
+}
+.product-item-1{
+   width: 250px;
+}
+
+
+/*latest-deals-styles*/
+
+.deals-container{
+    height: 100vh;
+    background-image: url(./flowers/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+   width: 1030px;
+   height: 280px;
+   margin: auto;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 70px;
+   margin-bottom: 70px;
+   border-radius: 3px;
+}
+.input-fil-button{
+    display: flex;
+    padding-top: 20px;
+    text-align: center;
+}
+.input-fil{
+    margin-right:4px;
+    
+}
+.input-email{
+    padding:5px;
+}
+
+
+/*footer-styles-start-from-hare*/
+
+.footer-info{
+
+    background-color: rgb(3, 3, 3);
+    padding: 0%;
+    margin: auto;
+    padding: 100px;
+}
+    
+.shop-info-container{
+    width: 450px;
+    text-align: center;
+    align-items: center;
+    margin:auto;
+    color: azure;
+}
+.flower-shop{
+    color: rgb(247, 139, 39);
+}
+.flower-shop-color{
+    color: greenyellow;
+}
+.shop-details{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.about-page{
+    margin-bottom:15px ;
+}
+.flower-shop-color{
+    color: lightcoral;
+}
+
